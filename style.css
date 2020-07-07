@@ -411,7 +411,7 @@ nav ul li a:hover {
 }
 
 .box::before {
-    content: 'Box';
+    content: 'Fluid';
     color: white;
     width: 100%;
     height: 100%;
