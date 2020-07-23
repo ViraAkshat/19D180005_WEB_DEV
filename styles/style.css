@@ -642,4 +642,14 @@ footer a:hover {
   color: #CFE675;
   cursor: pointer;
 }
+
+.blocks a {
+  text-decoration: none;
+  color: #092834;
+}
+
+.blocks a:hover {
+  color: #000;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
