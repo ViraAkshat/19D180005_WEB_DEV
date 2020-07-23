@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Fondamento&family=Macondo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About Me</title>
@@ -15,7 +15,8 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#book">Books</a></li>
             <li><a href="#movie">Movies</a></li>
-            <li><a href="#game">Projects</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
         </ul>
     </nav>
     <div class="dropup">
@@ -24,14 +25,14 @@
           <a href="#home">Home</a>
           <a href="#book">Books</a>
           <a href="#movie">Movies</a>
-          <a href="#game">Projects</a>
+          <a href="#project">Projects</a>
         </div>
     </div>
 
     <div id="home">
         <div id="profile">
             <img src="./images/pp2.jfif" alt="My Pic">
-        </div> <br> <br>
+        </div> <br>
         <span>Hey, If you haven't smiled in a while ... Smile Please :)</span><br> <br>
         <h2>Akshat Vira</h2>
             <p>
@@ -67,13 +68,14 @@
         </div>
     </div>
 
-    <div id="game">
+    <div id="project">
         <div class="container">
             <div class="cards">
                 <div class="box"></div>
             </div>
             <div class="cards">
                 <div class="pic"><img src="./images/proj.jpg" alt=""></div>
+                This is the screenshot of an animated wheel
             </div>
             <div class="cards">
                 <div class="pic2"><img src="./images/back.jpeg" alt=""></div>
@@ -81,10 +83,32 @@
         </div>
     </div>
 
+    <div id="contact">
+        <form action="https://formspree.io/xgenrwol" method="POST">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div> <br>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+
     <footer>
         Contact Me: &nbsp;
         <a href="https://www.facebook.com/akshat.vira.5"><span class="fa fa-facebook"></span></a>
         <a href="https://github.com/ViraAkshat"><span class="fa fa-github"></span></a>
+        <a href="https://www.sololearn.com/Profile/8106689#">Sololearn</a>
     </footer>
 </body>
 </html>
